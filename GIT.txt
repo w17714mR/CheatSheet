@@ -1,7 +1,7 @@
 GIT
 
-git config --global user.email "william.rehel@gmail.com"
-git config --global user.name "william"
+git config --global user.email "email"
+git config --global user.name "name"
 
 git status
 git add
@@ -13,14 +13,4 @@ git commit -m "mensaje"
 git branch fork
 git checkout fork
 git remote add origin URL
-git remote add origin https://github.com/w17714mR/HojaSQL.git
-
-
-
-
-
-VIM
-
-i para insertar
-esc para dejar de insertar
-:wq para write - quit
+git push -u origin master
